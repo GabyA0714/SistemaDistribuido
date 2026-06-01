@@ -26,3 +26,18 @@ Para validar la comunicación entre los nodos mediante sockets, se requieren dos
 Ejecutar en la primera terminal para levantar el servidor en el puerto 65432 y habilitar el pool de 5 hilos.
 ```bash
 python servidor.py
+
+Evidencia de Ejecución
+
+A continuación se detalla la salida de consola (logs) comprobando la correcta conexión TCP y el procesamiento asíncrono entre ambos nodos:
+
+**Terminal 1 (Servidor):**
+```text
+Servidor distribuido escuchando en 127.0.0.1:65432
+Pool de hilos inicializado con 5 workers.
+Conexión establecida desde ('127.0.0.1', 54162)
+Tarea recibida de ('127.0.0.1', 54162): Generar reporte de procesamiento
+Conexión cerrada con ('127.0.0.1', 54162)
+Terminal 2 (Cliente):
+Enviando tarea: Generar reporte de procesamiento
+Respuesta del servidor: Tarea 'Generar reporte de procesamiento' procesada correctamente por el worker.
