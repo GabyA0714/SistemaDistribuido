@@ -24,11 +24,14 @@ Para validar la comunicación entre los nodos mediante sockets, se requieren dos
 1. **Iniciar el Servidor (Worker Pool):** Ejecutar en la primera terminal para levantar el servidor en el puerto 65432 y habilitar el pool de 5 hilos.
    ```bash
    python servidor.py
-2. **Iniciar el Cliente: Ejecutar en la segunda terminal para enviar la carga de trabajo.
+2. **Iniciar el Cliente: **Ejecutar en la segunda terminal para enviar la carga de trabajo.
     ```bash
    python cliente.py
 
-    Evidencia de Ejecución
+
+
+
+Evidencia de Ejecución
 A continuación se detalla la salida de consola (logs) comprobando la correcta conexión TCP, el procesamiento asíncrono y el manejo seguro de conexiones:
 
 Terminal 1 (Servidor):Gabriela@DESKTOP-SU7BE1A MINGW64 ~/Desktop/SistemaDistribuido (main)
