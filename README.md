@@ -9,8 +9,6 @@ El diseño topológico contempla:
 * Comunicación asíncrona mediante una Cola de Mensajes (RabbitMQ).
 * Persistencia de datos distribuidos (PostgreSQL para datos estructurados y S3 para almacenamiento de objetos).
 
-*(Diagrama del Sistema Distribuido.png)*
-
 (Diagrama del Sitema Distribuido.png)
 <img width="1081" height="622" alt="Diagrama del Sistema Distribuido drawio" src="https://github.com/user-attachments/assets/af1d455c-3dee-494a-94f8-bb7548420bc0" />
 
